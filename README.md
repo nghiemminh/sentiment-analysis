@@ -9,9 +9,11 @@ The dataset used for this sentiment analysis task is the [IMDb movie reviews dat
 
 The models are trained on train set, then validate on validation set to get the best architecture. Finally, models perform on the test set to get unbiased performance estimators.
 
-1. Neural Network: Tokenized using Keras tokenizer. Trained a Neural Network with an Embedding layer, a GlobalAveragePooling, follows by 3 Dense layers and 2 Dropout. Achieved 0.5 Accuracy, 0.95 Recall, and 0.65 F1
-2. BiLSTM: Tokenized using Keras tokenizer. Trained a network of an Embedding Layer, 2 Bidirectional LSTM layers, then follows by 2 Dense layers and 2 Droupout. Achieved 0.86 Accuracy on a balanced test set.
-3. DistilBERT: Tokenized using the Hugging Face transformers library's DistilBERT tokenizer. Fine-tuning with 3 epochs on GPU. Achived **0.93 Accuracy** on a balanced test set.
+**1. Neural Network**: Tokenized using Keras tokenizer. Trained a Neural Network with an Embedding layer, a GlobalAveragePooling, follows by 3 Dense layers and 2 Dropout. Achieved 0.5 Accuracy, 0.95 Recall, and 0.65 F1
+**2. BiLSTM**: Tokenized using Keras tokenizer. Trained a network of an Embedding Layer, 2 Bidirectional LSTM layers, then follows by 2 Dense layers and 2 Droupout. Achieved 0.86 Accuracy on a balanced test set.
+**3. DistilBERT**: Tokenized using the Hugging Face transformers library's DistilBERT tokenizer. Fine-tuning with 3 epochs on GPU. Achived **0.93 Accuracy** on a balanced test set.
+
+---> DistilBERT is the best performance model.
 
 ### Dependencies
 Choose the lastest versions of any of the dependencies below: 
