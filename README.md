@@ -15,7 +15,7 @@ The models are trained on train set, then validate on validation set to get the 
 
 **3. DistilBERT**: Tokenized using the Hugging Face transformers library's DistilBERT tokenizer. Fine-tuning with 3 epochs on GPU. Achived **0.93 Accuracy** on a balanced test set.
 
----> DistilBERT is the best performance model.
+---> DistilBERT is the best performance model, achieved **0.93 Accuracy**
 
 ### Dependencies
 Choose the lastest versions of any of the dependencies below: 
